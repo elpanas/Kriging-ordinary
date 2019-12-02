@@ -1,4 +1,4 @@
-# Kriging Ordinario
+# Funzione ordkrig per il Kriging ordinario
 
 - Scrivere una funzione di octave che calcoli il il kriging ordinario in un insieme di punti P con coordinate note (Px, Py).
 
