@@ -21,7 +21,7 @@ La funzione deve restituire un array  “pred” con il valore interpolato nei p
 La funzione ordkrig richiede in input i parametri nugget, sill e range. Quindi, per effettuare un test migliore, ho deciso di ricavarli dal semivariogramma e successivamente usarli nel test della funzione.
 
 #### Operazioni preliminari
-1. Utilizzo 100 campioni generati casualmente, contenuti in un file (campioni.dat) costituito da 3 colonne formattate come segue:
+1. Utilizzo 100 campioni generati casualmente da un programma scritto in C, contenuti in un file (campioni.dat) costituito da 3 colonne formattate come segue:
 
 `Coordinata X – Coordinata Y – Misura`
 
