@@ -58,5 +58,5 @@ Metto i risultati sul grafico:
 ![Grafico2](https://github.com/elpanas/Kriging-ordinary/blob/master/Grafici/3.png)
 
 ### Conclusioni
-Possiamo notare come la varianza del valore al punto P_3 sia superiore a quella degli altri punti, a causa della sua posizione maggiormente isolata; lo stesso comportamento del valore in posizione P_2. Al contrario il valore nel punto P_1 ha la varianza più bassa dei 3.
+Possiamo notare come la varianza del valore al punto P3 sia superiore a quella degli altri punti, a causa della sua posizione maggiormente isolata; lo stesso comportamento del valore in posizione P2. Al contrario il valore nel punto P1 ha la varianza più bassa dei 3.
 Abbiamo quindi dimostrato come il previsore in punti vicini o in gruppo sia più preciso (con una varianza più bassa) rispetto alla previsione in punti più isolati.
