@@ -17,3 +17,14 @@ par = parametri di semivarmod (nugget, range, sill, ecc).
 La funzione deve restituire un array  “pred” con il valore interpolato nei punti P e un altro array con la loro varianza “var”.
 
 - Sperimentare la funzione ottenuta usando un set di dati a piacere fare un grafico dei dat interpolati e commentare i risultati ottenuti.
+
+## Descrizione
+La funzione ordkrig richiede in input i parametri nugget, sill e range. Quindi, per effettuare un test migliore, ho deciso di ricavarli dal semivariogramma e successivamente usarli nel test della funzione.
+### Operazioni preliminari
+Utilizzo 100 campioni generati casualmente, contenuti in un file (campioni.dat) costituito da 3 colonne formattate come segue:
+Coordinata X – Coordinata Y – Misura
+Genero il semivariogramma per mezzo della funzione Octave “semivariogramma.m”.
+Analizzo il semivariogramma regolarizzato con un modello parametrico sferico avente i seguenti valori:
+Nugget = 6000
+Sill = 2000
+Range = 150
